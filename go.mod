@@ -1,6 +1,6 @@
 module github.com/isgo-golgo13/k8s-operatorkit-job-killer
 
-go 1.19
+go 1.16
 
 require (
 	k8s.io/apimachinery v0.25.0
