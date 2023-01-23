@@ -1,0 +1,9 @@
+domain: operatorkit.github.com
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: k8s-operatorkit-job-killer
+repo: github.com/isgo-golgo13/k8s-operatorkit-job-killer
+version: "3"
