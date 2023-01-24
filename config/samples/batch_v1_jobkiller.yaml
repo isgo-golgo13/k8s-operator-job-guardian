@@ -1,0 +1,12 @@
+apiVersion: batch.operatorkit.github.com/v1
+kind: JobKiller
+metadata:
+  labels:
+    app.kubernetes.io/name: jobkiller
+    app.kubernetes.io/instance: jobkiller-sample
+    app.kubernetes.io/part-of: k8s-operatorkit-job-killer
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: k8s-operatorkit-job-killer
+  name: jobkiller-sample
+spec:
+  # TODO(user): Add fields here
