@@ -1,0 +1,19 @@
+domain: operatorkit.github.com
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: operatorkit-task-watcher
+repo: github.com/isgo-golgo13/operatorkit-task-watcher
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: operatorkit.github.com
+  group: batch
+  kind: TaskWatcher
+  path: github.com/isgo-golgo13/operatorkit-task-watcher/api/v1
+  version: v1
+version: "3"

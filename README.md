@@ -24,3 +24,8 @@ operator-sdk init task-watcher --plugins go/v3 --domain operatorkit.github.com -
 ```
 operator-sdk create api --group batch --kind TaskWatcher --version v1 --resource true --controller true
 ```
+
+- Write the Go code for the Operator and generate the manifests (CRDs, CRs) 
+```
+make manifests
+```

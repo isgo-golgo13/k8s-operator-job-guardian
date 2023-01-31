@@ -1,0 +1,12 @@
+apiVersion: batch.operatorkit.github.com/v1
+kind: TaskWatcher
+metadata:
+  labels:
+    app.kubernetes.io/name: taskwatcher
+    app.kubernetes.io/instance: taskwatcher-sample
+    app.kubernetes.io/part-of: operatorkit-task-watcher
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: operatorkit-task-watcher
+  name: taskwatcher-sample
+spec:
+  # TODO(user): Add fields here
