@@ -17,7 +17,7 @@ go mod tidy
 
 - Execute Operator SDK init 
 ```
-operator-sdk init job-killer --plugins go/v3 --domain operatorkit.github.com --repo github.com/isgo-golgo13/operatorkit-task-watcher
+operator-sdk init task-watcher --plugins go/v3 --domain operatorkit.github.com --repo github.com/isgo-golgo13/operatorkit-task-watcher
 ```
 
 - Execute Operator SDK Create API
